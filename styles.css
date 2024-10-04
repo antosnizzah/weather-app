@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .weather-info, .forecast {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .forecast-item {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+  
